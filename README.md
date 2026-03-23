@@ -1,4 +1,4 @@
-# Restaurant Class ideas
+
 
 ## Properties
 - int waitTime
@@ -21,3 +21,16 @@
 
 ### ArrayList
 - A place to store the different restaurant objects.
+
+
+
+
+
+### Random
+- I used the random class to generate a random number between 0 and 61, then used the number given to print the restaurant corresponding to that number in the array.
+
+### Scanner 
+- The scanner scans all the restaurant data in the .txt file, and I changed the delimiter from a space to a comma so that each piece of data goes in the right field. (waitime, rating, avgPrice, distance, hoursOpen)
+
+### While loop
+- I used a while loop to scan each restaurant and put it into the array, and used the hasNext() method to keep looping the code until there's nothing left to scan in the .txt file.
